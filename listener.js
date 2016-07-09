@@ -48,3 +48,4 @@ function pauseListening() {
   console.log("🔇 Stop listening for enter or click.");
 }
 
+ 
