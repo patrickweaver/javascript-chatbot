@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thimble Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="chat-area">
+        <div id='start-screen'>
+          <div id="startButton">
+            <div id="robot">
+              <img src="robot.svg">
+            </div>
+            <img src="pointer.png" id="cursor"> or ⏎ to start!
+          </div>
+        </div>
+      </div>
+      <div id="compose-area">
+        <textarea id="composer" class='text-input' type='text' autofocus='autofocus'></textarea>
+        <div id="sendButton">
+          <button>&nbsp;↵&nbsp;</button>
+        </div>
+      </div>
+      
+    </div>
+    <script src="variables.js"></script>
+    <script src="listener.js"></script>
+    <script src="thingsTheBotSays.js"></script>
+    <script src="chatEngine.js"></script>
+    <script src="botChat.js"></script>
+    <script src="userChat.js"></script>
+    <script src="send.js"></script>
+  </body>
+</html>
