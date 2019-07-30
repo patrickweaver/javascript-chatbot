@@ -138,12 +138,12 @@ button {
 
 .avatar-bot {
   left: -15px;
-  background-image: url("robot.svg");
+  background-image: url("https://cdn.glitch.com/e5ca6c0c-b21f-4a54-a1ad-6285b1bf8390%2Frobot.svg");
 }
 
 .avatar-user {
   right: -15px;
-  background-image: url("dolphin.png");
+  background-image: url("https://cdn.glitch.com/e5ca6c0c-b21f-4a54-a1ad-6285b1bf8390%2Fdolphin.png?");
 }
 
 .chat-bot {

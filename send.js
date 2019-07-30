@@ -1,4 +1,6 @@
 // send is the function that sends the next message stored in nextMessage object.
+
+
 function send(sender, message) {
   console.log("🗨 " + sender + ": " + message);
 
@@ -11,3 +13,9 @@ function send(sender, message) {
   // Count one more message that has been sent.
   count += 1;
 }
+
+// The comment below tells this file about variables we define in other files.
+/*
+  global chatArea
+  global count
+*/

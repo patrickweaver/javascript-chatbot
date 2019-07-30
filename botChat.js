@@ -1,6 +1,6 @@
 // botChat is the function that picks the bot's next message.
-function botChat() {
 
+function botChat() {
   // Set the bot as the sender of the next message.
   nextMessage.sender = "bot";
 
@@ -31,3 +31,16 @@ function botChat() {
   // Start listening again after the bot has sent a message.
   listenFor();
 }
+
+
+// The comment below tells this file about variables we define in other files.
+/* 
+global botCount
+global botScript
+global nextMessage
+global botSilent
+global goodbye
+global sendSpecialChat
+global send
+global listenFor
+*/
