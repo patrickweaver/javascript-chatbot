@@ -57,6 +57,19 @@ function startBot(){
   document.getElementById('compose-area').style.display = 'block';
 }
 
+// The comment below tells this file about variables we define in other files.
+/*
+  global count
+  global last
+  global nextMessage
+  global userChat
+  global composer
+  global botSilent
+  global listenFor
+  global wait
+  global botChat
+  global chatArea
+*/
 
 
 

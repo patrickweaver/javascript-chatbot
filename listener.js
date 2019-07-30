@@ -1,7 +1,5 @@
 /*
-
 This JavaScript file has code to allow a user to choose to press the Start or ⏎ button, or to press the Enter key on their keyboard using the .keycode property.
-
 */
 
 // listener is a variable to decide what input to look for
@@ -48,4 +46,8 @@ function pauseListening() {
   console.log("🔇 Stop listening for enter or click.");
 }
 
- 
+// The comment below tells this file about variables we define in other files.
+/* 
+global count
+global lookForChat
+*/
